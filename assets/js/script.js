@@ -56,13 +56,15 @@ class Reproductor extends Multimedia {
 //Instanciar, invocar metodo y utilizar setInicio
 
 let musica = new Reproductor('https://www.youtube.com/embed/AOeY-nDp7hI', 'musica');
-musica.setInicio(124);
 musica.playMultimedia();
+musica.setInicio(124);
+
 
 let pelicula = new Reproductor('https://www.youtube.com/embed/d9RRzmPEjBg', 'peliculas');
-pelicula.setInicio(100);
 pelicula.playMultimedia();
+pelicula.setInicio(100);
+
 
 let series = new Reproductor('https://www.youtube.com/embed/s9APLXM9Ei8', 'series');
-series.setInicio(60);
 series.playMultimedia();
+series.setInicio(60);
